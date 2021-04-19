@@ -6,15 +6,5 @@
     android:layout_height="match_parent"
     tools:context=".SecondActivity">
 
-    <fragment
-        android:id="@+id/blankFragment"
-        android:name="com.example.externallibraries.BlankFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:tag="@string/app_name"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

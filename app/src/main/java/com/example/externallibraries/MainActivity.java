@@ -25,14 +25,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Log.d("a19jimsa", "click");
-            }
-        });
-        MaterialButton button = findViewById(R.id.materialButton);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, SecondActivity.class);
-                startActivity(intent);
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer, new BlankFragment()).commit();
             }
         });
     }

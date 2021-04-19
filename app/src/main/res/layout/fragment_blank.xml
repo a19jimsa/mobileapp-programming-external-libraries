@@ -9,7 +9,7 @@
     <!-- TODO: Update blank fragment layout -->
     <androidx.appcompat.widget.Toolbar
         style="@style/Widget.MaterialComponents.Toolbar.Primary"
-        android:id="@+id/toolbar"
+        android:id="@+id/mytoolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:title="Second Activity"

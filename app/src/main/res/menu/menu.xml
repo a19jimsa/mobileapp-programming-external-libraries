@@ -17,8 +17,8 @@
         app:showAsAction="always" />
 
     <item
-        android:id="@+id/more"
-        android:title="More"
+        android:id="@+id/settings"
+        android:title="Settings"
         android:contentDescription="fewfew"
         app:showAsAction="never" />>
 </menu>

@@ -85,3 +85,5 @@ Detta är endast som krävs för att implementera en MaterialProgessBar sen går
 Appen använder olika Material Design komponenter som inte är en del utav uppgiften utan mest för att lära sig Android och lära sig designspråket.
 
 <img src="app7.png" width="300"><img src="app5.png" width="300"><img src="app6.png" width="300">
+
+När man klickar på Button 1 så skapas en ny aktivitet. Denna aktivitet har en toolbar med en bakåt knapp. När den klickas på avslutas aktiviteten med finish().

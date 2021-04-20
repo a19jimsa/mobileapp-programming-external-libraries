@@ -3,7 +3,11 @@
 
 **Uppgift 8 - External libraries**
 
-Uppgiften gick ut på att skapa en app som använder sig utav externa bibliotek skapade av personer som laddat upp de för allmänheten att använda. Appen använder två olika bibliotek. Ett för konfetti och ett för en progess bar anpassad för Material Design. Appen använder Material Design som utgångspunkt för utseende. Med en top bar med en primärfärg och meny knappar. Det används även fragments för att kunna navigera runt på sidan utan att behöva skapa nya aktiviteter. Exempel på en fragment:
+Uppgiften gick ut på att skapa en app som använder sig utav externa bibliotek skapade av personer som laddat upp de för allmänheten att använda. Appen använder två olika bibliotek. Ett för konfetti och ett för en progess bar anpassad för Material Design. Appen använder Material Design som utgångspunkt för utseende. Med en top bar med en primärfärg och meny knappar. 
+
+<img src="app1" width="300">
+
+Det används även fragments för att kunna navigera runt på sidan utan att behöva skapa nya aktiviteter. Exempel på en fragment:
 
 ```Java
 
@@ -77,3 +81,5 @@ I en fragments skapas en Material Progress Bar som också är ett extern bibliot
 Detta är endast som krävs för att implementera en MaterialProgessBar sen går det ändra i Javakod om man vill. Det ser ut så här:
 
 <img src="app3" width="300">
+
+Appen använder olika Material Design komponenter som inte är en del utav uppgiften utan mest för att lära sig Android och lära sig designspråket.

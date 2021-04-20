@@ -30,6 +30,6 @@ public class CardFragment extends Fragment {
                 Intent intent = new Intent(getActivity().getApplicationContext(), SecondActivity.class);
                 startActivity(intent);
             }
-        });;
+        });
     }
 }

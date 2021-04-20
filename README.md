@@ -1,7 +1,7 @@
 
 # Rapport
 
-**Assignemnt 8 - External libraries**
+**Uppgift 8 - External libraries**
 
 Uppgiften gick ut på att skapa en app som använder sig utav externa bibliotek skapade av personer som laddat upp de för allmänheten att använda. Appen använder två olika bibliotek. Ett för konfetti och ett för en progess bar anpassad för Material Design. Appen använder Material Design som utgångspunkt för utseende. Med en top bar med en primärfärg och meny knappar. Det används även fragments för att kunna navigera runt på sidan utan att behöva skapa nya aktiviteter. Exempel på en fragment:
 
@@ -62,3 +62,18 @@ Här skapas konfetti när man trycker på menyknappen. Det skapas konstanter av 
 
 <img src="app2" width="300">
 
+I en fragments skapas en Material Progress Bar som också är ett extern bibliotek. Som skapar laddningsanimationer i olika former, cirklar eller horisontellt. Här är implementationen mycket enklare och krävs endast man skapar en vy i en layout fil.
+
+```
+<me.zhanghai.android.materialprogressbar.MaterialProgressBar
+            android:layout_gravity="center"
+            style="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:indeterminate="true"
+            app:mpb_progressStyle="circular"
+            android:theme="@style/AppTheme"/>
+```
+Detta är endast som krävs för att implementera en MaterialProgessBar sen går det ändra i Javakod om man vill. Det ser ut så här:
+
+<img src="app3" width="300">

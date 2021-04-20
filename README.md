@@ -37,7 +37,14 @@ Dessa är för Material Design, konfetti och Material Progressbar komponenter.
 
 Första externa biblioteket som används är konfetti här som används på alla sidor eftersom fragments ligger i MainActivity så kan konfetti användas på alla sidor/fragments.
 
-Här är ett exempel:
+Koden som skrävs för att skapa konfetti på sidan:
+
+```
+<nl.dionsegijn.konfetti.KonfettiView
+        android:id="@+id/viewKonfetti"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+```
 
 ```Java
  final Drawable drawable = ContextCompat.getDrawable(getApplicationContext(), R.drawable.ic_favorite_24);
@@ -62,7 +69,7 @@ Här är ett exempel:
             }
         });
 ```
-Här skapas konfetti när man trycker på menyknappen. Det skapas konstanter av drawableShape och konfettiView detta enligt biliotekets rekommendationer. När man trycker på knappen skapas nya konfetti som regnar ner över skärmen.
+Det är som vanligt viktigt att man kopplar den till rätt id. Här skapas konfetti när man trycker på menyknappen. Det skapas konstanter av drawableShape och konfettiView detta enligt biliotekets rekommendationer. När man trycker på knappen skapas nya konfetti som regnar ner över skärmen.
 
 <img src="app3.png" width="300">
 

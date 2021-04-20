@@ -7,7 +7,7 @@ Uppgiften gick ut på att skapa en app som använder sig utav externa bibliotek 
 
 <img src="app1.png" width="300">
 
-Det används även fragments för att kunna navigera runt på sidan utan att behöva skapa nya aktiviteter. Exempel på en fragment:
+Det används även fragments för att kunna navigera runt på sidan utan att behöva skapa nya aktiviteter. Alla knappar som ligger i meyn går att klicka på och är en del av menyn och en knapp-lyssnare och varje knapp har ett fragment kopplat till sig som körs när en knapp klickas på. Exempel på ett fragment:
 
 ```Java
 
